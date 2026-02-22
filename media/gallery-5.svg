@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="300" viewBox="0 0 400 300">
+  <rect width="400" height="300" fill="#e8ede4"/>
+  <rect x="80" y="70" width="240" height="150" rx="10" fill="white" stroke="#2d6a4f" stroke-width="2"/>
+  <rect x="100" y="95" width="80" height="10" rx="3" fill="#52b788"/>
+  <rect x="100" y="115" width="120" height="10" rx="3" fill="#95d5b2"/>
+  <rect x="100" y="135" width="60" height="10" rx="3" fill="#40916c"/>
+  <rect x="100" y="155" width="180" height="10" rx="3" fill="#b7e4c7"/>
+  <rect x="100" y="175" width="140" height="10" rx="3" fill="#52b788"/>
+  <text x="200" y="270" text-anchor="middle" fill="#1a2e1a" font-family="sans-serif" font-size="14">Impact Reports</text>
+</svg>

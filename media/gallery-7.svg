@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="300" viewBox="0 0 400 300">
+  <rect width="400" height="300" fill="#e8ede4"/>
+  <path d="M100 220 Q150 100 200 160 Q250 220 300 120" stroke="#2d6a4f" stroke-width="3" fill="none"/>
+  <path d="M100 220 Q150 150 200 190 Q250 230 300 170" stroke="#52b788" stroke-width="2" fill="none" stroke-dasharray="5,5"/>
+  <text x="200" y="270" text-anchor="middle" fill="#1a2e1a" font-family="sans-serif" font-size="14">Waste Reduction</text>
+</svg>
