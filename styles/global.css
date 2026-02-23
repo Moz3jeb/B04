@@ -51,3 +51,37 @@ a:active {
 p {
   margin-bottom: 1em;
 }
+
+/* header */
+header {
+  background-color: var(--backfill);
+  width: 100%;
+  padding: 1rem;
+}
+
+.header-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.logo {
+  font-size: 1.25rem;
+  margin-bottom: 0;
+}
+
+nav ul {
+  display: flex;
+  gap: 1.25rem;
+}
+
+nav a {
+  font-weight: 500;
+  font-size: 0.9rem;
+  padding: 0.25em 0;
+}
+
+nav a.active {
+  border-bottom: 2px solid var(--link);
+}
