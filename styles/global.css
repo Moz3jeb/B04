@@ -9,6 +9,17 @@
   --link-active: #40916c;
 }
 
+@media (prefers-color-scheme: dark) {
+  :root {
+    --text: #e8ede4;
+    --background: #1a2e1a;
+    --backfill: #2d3d2d;
+    --link: #52b788;
+    --link-hover: #95d5b2;
+    --link-active: #40916c;
+  }
+}
+
 body {
   font-family: 'Inter', sans-serif;
   color: var(--text);
