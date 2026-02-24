@@ -169,3 +169,69 @@ footer {
 .social-links span {
   display: none;
 }
+
+/* gallery grid */
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+}
+
+.gallery-grid img {
+  width: 100%;
+  height: auto;
+  border-radius: 0.5rem;
+  transition: all 250ms ease;
+}
+
+.gallery-grid img:hover {
+  transform: scale(1.02);
+}
+
+/* service cards */
+.services-list {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+}
+
+.service-card {
+  background-color: var(--backfill);
+  padding: 1.25rem;
+  border-radius: 0.5rem;
+  transition: all 250ms ease;
+}
+
+/* team cards */
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1.5rem;
+}
+
+.team-card {
+  background-color: var(--backfill);
+  padding: 1.25rem;
+  border-radius: 0.5rem;
+  text-align: center;
+}
+
+.avatar {
+  width: 8rem;
+  height: 8rem;
+  margin: 0 auto 1rem;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.role {
+  color: var(--link);
+  font-weight: 500;
+  font-size: 0.9rem;
+}
