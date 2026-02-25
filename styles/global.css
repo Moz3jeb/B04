@@ -246,3 +246,46 @@ footer {
   font-weight: 500;
   font-size: 0.9rem;
 }
+
+/* responsive - medium screens and up */
+@media (min-width: 600px) {
+  .header-content {
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  .logo {
+    font-size: 1.5rem;
+  }
+
+  nav a {
+    font-size: 1rem;
+  }
+
+  .hero h2 {
+    font-size: 2rem;
+  }
+
+  .hero p {
+    font-size: 1.1rem;
+  }
+
+  .footer-content {
+    grid-template-columns: 1fr 2fr;
+    align-items: start;
+  }
+
+  .social-links span {
+    display: inline;
+  }
+
+  .services-list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .team-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
