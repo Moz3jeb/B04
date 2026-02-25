@@ -141,6 +141,7 @@ section {
 .hero {
   text-align: center;
   padding: 2rem 0;
+  border-bottom: 1px solid var(--backfill);
 }
 
 /* footer */
@@ -213,6 +214,10 @@ footer {
   transition: all 250ms ease;
 }
 
+.service-card:hover {
+  transform: translateY(-2px);
+}
+
 /* team cards */
 .team-grid {
   display: grid;
@@ -225,6 +230,11 @@ footer {
   padding: 1.25rem;
   border-radius: 0.5rem;
   text-align: center;
+  transition: all 250ms ease;
+}
+
+.team-card:hover {
+  transform: translateY(-2px);
 }
 
 .avatar {
