@@ -89,6 +89,10 @@ p {
   margin-bottom: 1em;
 }
 
+p:last-child {
+  margin-bottom: 0;
+}
+
 /* header */
 header {
   background-color: var(--backfill);
@@ -136,6 +140,10 @@ main {
 
 section {
   margin-bottom: 2rem;
+}
+
+section:last-child {
+  margin-bottom: 0;
 }
 
 .hero {
