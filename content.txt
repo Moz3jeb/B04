@@ -1,0 +1,60 @@
+Company Name: EcoMind AI
+
+Tagline: Smart solutions for a greener tomorrow
+
+About Us:
+EcoMind AI is a technology startup that combines artificial intelligence with environmental sustainability. We started in 2024 with a simple idea — use AI to help businesses and communities reduce their environmental impact. Our team of engineers, data scientists, and environmental experts works together to build tools that make going green easier and more practical for everyone. We believe technology should serve the planet, not just profit.
+
+Our Mission:
+To make sustainable practices accessible to every organization through intelligent, easy-to-use technology solutions.
+
+Our Vision:
+A world where every business decision is informed by its environmental impact, powered by AI that understands both data and nature.
+
+---
+
+Services:
+
+1. Carbon Footprint Tracker
+We built a dashboard that uses machine learning to monitor and calculate a company's carbon emissions in real time. It pulls data from energy usage, supply chains, and transportation to give a clear picture of where emissions come from. It also suggests practical steps to reduce them.
+
+2. Smart Energy Management
+Our AI system analyzes building energy patterns and automatically adjusts heating, cooling, and lighting to cut waste. It learns from daily usage and weather data to optimize energy consumption without sacrificing comfort. Most clients see a 20-30% reduction in energy bills.
+
+3. Waste Reduction Analytics
+This service uses computer vision and data analysis to help manufacturing and food companies track waste. The system identifies patterns in waste generation and recommends changes to processes that can reduce waste significantly.
+
+4. Green Supply Chain Optimization
+We help companies make their supply chains more sustainable by analyzing logistics data and finding more efficient routes, suppliers, and packaging options. The AI considers both cost and environmental impact to find the best balance.
+
+5. Environmental Impact Reports
+Our platform automatically generates detailed environmental impact reports that meet international standards. Instead of spending weeks on manual data collection, companies can get accurate reports in hours. We support GRI, CDP, and TCFD frameworks.
+
+6. Sustainability Consulting AI
+An AI-powered chatbot and advisory tool that answers sustainability questions, helps with compliance, and provides personalized recommendations based on a company's specific industry and size. Think of it like having a sustainability expert on call 24/7.
+
+---
+
+Team:
+
+1. Sara Al-Rashid — CEO & Co-Founder
+Sara has a background in environmental science and business management. Before starting EcoMind AI, she worked at a renewable energy company for 5 years where she saw firsthand how much potential AI had to improve sustainability efforts. She leads the company's vision and strategy.
+
+2. Omar Hassan — CTO & Co-Founder
+Omar is a software engineer with 8 years of experience in machine learning and cloud systems. He previously worked at a big tech company building recommendation systems, but wanted to use his skills for something more meaningful. He oversees all the technical development at EcoMind AI.
+
+3. Lina Chen — Head of Data Science
+Lina has a PhD in environmental data science and specializes in building models that predict environmental trends. She joined EcoMind AI because she wanted to bridge the gap between academic research and real-world applications. She leads the data science team and the development of our core algorithms.
+
+4. Youssef Kareem — Lead Designer
+Youssef is a UX/UI designer who believes good design makes complex data accessible to everyone. He has worked on several award-winning apps and brings a user-first approach to all our products. He makes sure our dashboards and tools are intuitive and easy to use.
+
+---
+
+Social Links:
+- GitHub: https://github.com/ecomindai
+- LinkedIn: https://linkedin.com/company/ecomindai
+- Twitter: https://twitter.com/ecomindai
+- Instagram: https://instagram.com/ecomindai
+- Facebook: https://facebook.com/ecomindai
+- YouTube: https://youtube.com/@ecomindai
