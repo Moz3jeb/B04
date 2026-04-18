@@ -1,0 +1,72 @@
+[
+    {
+        "id": "deck001xxxx",
+        "title": "Decks",
+        "slides": [
+            {
+                "id": "slide001xxx",
+                "title": "Words",
+                "cards": [
+                    {
+                        "id": "card001xxxx",
+                        "type": "foreign-word",
+                        "tags": [],
+                        "data": {
+                            "word": "生きがい",
+                            "pronunciation": "ikigai",
+                            "translation": "the reason for being"
+                        }
+                    },
+                    {
+                        "id": "card002xxxx",
+                        "type": "foreign-word",
+                        "tags": [],
+                        "data": {
+                            "word": "bonjour",
+                            "pronunciation": "bon-zhoor",
+                            "translation": "hello"
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "slide002xxx",
+                "title": "Cards",
+                "cards": [
+                    {
+                        "id": "card003xxxx",
+                        "type": "playing-card",
+                        "tags": [],
+                        "data": {
+                            "pip": "A",
+                            "suit": "hearts"
+                        }
+                    },
+                    {
+                        "id": "card004xxxx",
+                        "type": "playing-card",
+                        "tags": [],
+                        "data": {
+                            "pip": "K",
+                            "suit": "spades"
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "slide003xxx",
+                "title": "Lists",
+                "cards": [
+                    {
+                        "id": "card005xxxx",
+                        "type": "string-list",
+                        "tags": [],
+                        "data": {
+                            "items": ["apple", "banana", "cherry"]
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+]
