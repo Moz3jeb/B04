@@ -1,0 +1,68 @@
+{
+  "info": {
+    "name": "HW3 flashcards",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "get all decks",
+      "request": { "method": "GET", "url": { "raw": "http://localhost:3000/api", "host": ["http://localhost:3000"], "path": ["api"] } }
+    },
+    {
+      "name": "create deck",
+      "request": {
+        "method": "POST",
+        "header": [{ "key": "Content-Type", "value": "application/json" }],
+        "body": { "mode": "raw", "raw": "{\"title\":\"my deck\"}" },
+        "url": { "raw": "http://localhost:3000/api", "host": ["http://localhost:3000"], "path": ["api"] }
+      }
+    },
+    {
+      "name": "delete deck",
+      "request": { "method": "DELETE", "url": { "raw": "http://localhost:3000/api/:deck", "host": ["http://localhost:3000"], "path": ["api", ":deck"] } }
+    },
+    {
+      "name": "get slides",
+      "request": { "method": "GET", "url": { "raw": "http://localhost:3000/api/:deck", "host": ["http://localhost:3000"], "path": ["api", ":deck"] } }
+    },
+    {
+      "name": "create slide",
+      "request": {
+        "method": "POST",
+        "header": [{ "key": "Content-Type", "value": "application/json" }],
+        "body": { "mode": "raw", "raw": "{\"title\":\"slide 1\"}" },
+        "url": { "raw": "http://localhost:3000/api/:deck", "host": ["http://localhost:3000"], "path": ["api", ":deck"] }
+      }
+    },
+    {
+      "name": "delete slide",
+      "request": { "method": "DELETE", "url": { "raw": "http://localhost:3000/api/:deck/:slide", "host": ["http://localhost:3000"], "path": ["api", ":deck", ":slide"] } }
+    },
+    {
+      "name": "get cards",
+      "request": { "method": "GET", "url": { "raw": "http://localhost:3000/api/:deck/:slide", "host": ["http://localhost:3000"], "path": ["api", ":deck", ":slide"] } }
+    },
+    {
+      "name": "create card",
+      "request": {
+        "method": "POST",
+        "header": [{ "key": "Content-Type", "value": "application/json" }],
+        "body": { "mode": "raw", "raw": "{\"type\":\"text\",\"tags\":[\"hi\"],\"data\":{\"text\":\"hello\"}}" },
+        "url": { "raw": "http://localhost:3000/api/:deck/:slide", "host": ["http://localhost:3000"], "path": ["api", ":deck", ":slide"] }
+      }
+    },
+    {
+      "name": "delete card",
+      "request": { "method": "DELETE", "url": { "raw": "http://localhost:3000/api/:deck/:slide/:card", "host": ["http://localhost:3000"], "path": ["api", ":deck", ":slide", ":card"] } }
+    },
+    {
+      "name": "patch card",
+      "request": {
+        "method": "PATCH",
+        "header": [{ "key": "Content-Type", "value": "application/json" }],
+        "body": { "mode": "raw", "raw": "{\"data\":{\"text\":\"updated\"}}" },
+        "url": { "raw": "http://localhost:3000/api/:deck/:slide/:card", "host": ["http://localhost:3000"], "path": ["api", ":deck", ":slide", ":card"] }
+      }
+    }
+  ]
+}

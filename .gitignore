@@ -1,0 +1,5 @@
+node_modules
+.next
+*.db-journal
+.env.local
+prisma/client
