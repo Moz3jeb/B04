@@ -1,0 +1,42 @@
+// schema for flashcards
+
+generator client {
+  provider = "prisma-client-js"
+  output = "./client"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+
+model Deck {
+  id String @id
+  title String
+  slides Slide[]
+}
+
+model Slide {
+  id String @id
+  title String
+  deck String
+  Deck Deck @relation(fields: [deck], references: [id])
+  cards Card[]
+}
+
+
+model Card {
+  id String @id
+  type String
+  CardType CardType @relation(fields: [type], references: [type])
+  tags String
+  data String
+  slide String
+  Slide Slide @relation(fields: [slide], references: [id])
+}
+
+model CardType {
+  type String @id
+  cards Card[]
+}
